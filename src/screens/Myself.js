@@ -36,7 +36,6 @@ class Myself extends Component{
                            title={"Phone"}
                             rightTitle={`${me.phone}`} 
                             rightTitleNumberOfLines={null}
-                            rightTitleContainerStyle={{flex:5}}
                             hideChevron/>
                     </List>
                     <List>
@@ -44,13 +43,11 @@ class Myself extends Component{
                            title={"Location"}
                             rightTitle={`${me.location.street}`} 
                             rightTitleNumberOfLines={null}
-                            rightTitleContainerStyle={{flex:5}}
                             hideChevron/>
                         <ListItem 
                            title={"National"}
                             rightTitle={`${me.nat}`} 
                             rightTitleNumberOfLines={null}
-                            rightTitleContainerStyle={{flex:5}}
                             hideChevron/>
                     </List>
             </ScrollView>

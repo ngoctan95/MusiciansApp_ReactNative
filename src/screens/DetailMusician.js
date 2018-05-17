@@ -29,6 +29,7 @@ class DetailMusician extends Component{
                             rightTitleNumberOfLines={null}
                             titleNumberOfLines={null}
                             subtitleNumberOfLines={null}
+                            rightTitleContainerStyle={{flex:5}}
                             hideChevron={true}/>
                         <ListItem 
                             title={"Phone"}
